@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+/* UTILS */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.black-text {
+    color: #000;
+}
+
+.lightblue-text {
+    color: #8EA1E1;
+}
+
+.grey-bg {
+    background-color: #F6F6F6;
+}
+
+.darkgrey-bg {
+    background-color: #23272A;
+}
+
+.white-txt {
+    color: #FFF;
+}
+
+
+.f-s33{
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+
+/* HEADER */
+
+#bg-blue {
+    background-color: #2A5EE8;
+}
+
+#head {
+    padding: 50px;
+    justify-content: space-between;
+
+}
+
+#bg-image {
+    background-image: url(../img/jumbo.png);
+    background-position: bottom;
+    background-size: cover;
+    height: 1100px;
+}
+
+.main-head {
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+}
+
+.logo .login {
+    flex-basis: 25%;
+}
+
+#login {
+    color: #000;
+    background-color: #FFF;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.links {
+    flex-basis: 50%;
+}
+
+.head, .flex-container {
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, .flex-container {
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#paragraph-head {
+    padding-bottom:100px ;
+}
+
+#buttons {
+    width: 950px;
+    justify-content: space-between;
+}
+
+.button {
+    color: #000;
+    background-color: #FFF;
+    padding: 30px 45px;
+    border-radius: 55px;
+    font-size: 33px;
+}
+
+.dark-bttn {
+    background-color: #23272A;
+    color: #FFF;
+}
+
+.arrow {
+    padding-right: 10px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+#login:hover {
+    box-shadow: 0px 15px 10px #2049ba;
+}
+
+#buttons .button:hover {
+    box-shadow: 0px 15px 10px #2049ba;
+
+}
+
+
+/* SECTIONS */
+
+h2{
+    font-size: 80px;
+    font-weight: 600;
+    color: #23272A;
+    line-height: 100px;
+    padding-bottom: 30px;
+}
+
+.image {
+    flex-basis: 60%;
+}
+
+.picture {
+    height: 950px;
+    padding: 100px;
+}
+
+.caption {
+    flex-basis: 40%;
+    padding: 10px;
+}
+
+.paragraph {
+    line-height: 50px;
+    color: #23272A;
+}
+
+.section {
+    min-height: 1300px;
+    justify-content: space-between;
+}
+
+.middle-section {
+    order: 1;
+    text-align: right;
+}
+
+.waves {
+    background-image: url(img/wave.svg);
+    height: 100px;
+    filter: invert(98%) sepia(4%) saturate(92%) hue-rotate(171deg) brightness(117%) contrast(93%);
+}
+
+#reverse-waves {
+    transform: scaleY(-1);
+
+}
+
+.last-section {
+    min-height: 600px;
+    text-align: center;
+    padding: 100px 15px;
+    padding-bottom: 250px;
+}
+
+h3 {
+    font-size: 45px;
+    color: #23272A;
+}
+
+.last-section .container .paragraph {
+    font-size: 35px;
+}
+
+#big-img {
+    height: 1200px;
+    padding-bottom: 30px;
+}
+
+.lb-bttn{
+    background-color: #8EA1E1;
+    color: #FFF;
+}
+
+#fix {
+    padding-bottom: 100px;    
+}
+
+/* FOOTER TOP */
+
+.top {
+    align-items: flex-start;
+}
+
+.social {
+    width: calc(100% / 5);
+    padding: 15px;
+}
+
+.list {
+    width: calc(100% / 5 * 4 - 15px);
+}
+
+.top {
+    justify-content: space-between;
+    border-bottom: 1px solid #8EA1E1;
+    padding: 70px 0;
+
+}
+
+.icons {
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.source {
+    align-items: flex-start;
+    line-height: 55px;
+}
+
+#flag {
+    height: 25px;
+    padding-right: 15px;
+
+}
+
+#italian-language {
+    color: #FFF;
+    font-size: 23px;
+}
+
+.space {
+    padding: 30px 0;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+    min-height: 100px;
+}
+
+.bottom {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.small-bttn{
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.button.lb-bttn:hover {
+    box-shadow: 0px 15px 10px #7890E1;
+}
+
+
+/* PAGE 2 */
+
+.background {
+    background-image: url("../img/jumbo.png");
+    background-size: contain;
+    height: 100%;
+}
+
+.container-p2 {
+    width: 70%;
+    height: 1100px;
+    background-color: #23272A;
+    margin: 250px auto;
+    border-radius: 100px;
+}
+
+input {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.data {
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 150px;
+
+}
+
+.submit {
+    justify-content: center;
+    align-items: center;
+}
+
+#second-page-logo {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.second-page-top {
+    padding-bottom: 300px;
+}
+
